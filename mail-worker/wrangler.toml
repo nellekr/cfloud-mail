@@ -8,16 +8,16 @@ enabled = true
 
 [[d1_databases]]
 binding = "db"			#d1数据库绑定名默认不可修改
-database_name = "email"		#d1数据库名字
-database_id = "0a7ddf1f-12c7-487f-b26a-0d8dc16ee113"		#d1数据库id
+database_name = "youxiang"		#d1数据库名字
+database_id = "8f406b20-5bf9-4dc9-b91c-81ab0ae0dde5"		#d1数据库id
 
 [[kv_namespaces]]
-binding = "kv"			#kv绑定名默认不可修改
-id = "7dbef248fcc547d39689967f91f5f46f"					#kv数据库id
+binding = "youxiang"			#kv绑定名默认不可修改
+id = "a197e453ebff4f00acd44f8ac100bc33"					#kv数据库id
 
 [[r2_buckets]]
 binding = "r2"			#r2对象存储绑定名默认不可修改
-bucket_name = "email"		#r2对象存储桶的名字
+bucket_name = "youxiang"		#r2对象存储桶的名字
 
 [assets]
 binding = "assets"		#静态资源绑定名默认不可修改
