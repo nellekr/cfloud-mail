@@ -12,7 +12,7 @@ database_name = "youxiang"		#d1数据库名字
 database_id = "8f406b20-5bf9-4dc9-b91c-81ab0ae0dde5"		#d1数据库id
 
 [[kv_namespaces]]
-binding = "youxiang"			#kv绑定名默认不可修改
+binding = "kv"			#kv绑定名默认不可修改
 id = "a197e453ebff4f00acd44f8ac100bc33"					#kv数据库id
 
 [[r2_buckets]]
